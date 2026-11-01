@@ -1,0 +1,69 @@
+site_name: my-notes
+site_description: Personal technical knowledge base
+site_url: ""
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - home: index.md
+  - certifications:
+      - Overview: certifications/index.md
+      - LFS101: certifications/lfs101/index.md
+      - CS50P: certifications/cs50p/index.md
+      - Cisco Networking Basics: certifications/cisco-networking-basics/index.md
+  - languages:
+      - Overview: languages/index.md
+      - Python: languages/python/index.md
+  - networking:
+      - Overview: networking/index.md
+      - Introduction: networking/introduction.md
+  - personal:
+      - Overview: personal/index.md
+      - Neovim: personal/nvim/index.md
+      - Ricing: personal/ricing/index.md
+
+extra_css:
+  - styles/extra.css
