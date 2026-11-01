@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --md-text-font: "VT323";
+  --md-code-font: "VT323";
+  --md-primary-fg-color: #9b72cf;
+  --md-primary-fg-color--light: #b99ae8;
+  --md-primary-fg-color--dark: #7650a8;
+  --md-accent-fg-color: #c49aff;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #17131f;
+  --md-default-bg-color--light: #201a2b;
+  --md-code-bg-color: #211b2c;
+  --md-typeset-color: #e2d9ed;
+}
+
+.md-header {
+  background-color: #211a2d;
+}
+
+.md-tabs {
+  background-color: #211a2d;
+}
+
+.md-typeset a {
+  color: #bd96f5;
+}
+
+.md-typeset a:hover {
+  color: #d7bdff;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+.md-typeset pre {
+  border: 1px solid #3a2d4b;
+  border-radius: 6px;
+}
+
+.md-sidebar {
+  font-size: 0.75rem;
+}

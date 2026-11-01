@@ -1,6 +1,7 @@
-site_name: my-notes
-site_description: Personal technical knowledge base
-site_url: ""
+site_name: thoughtdump
+site_url: https://SEU-USUARIO.github.io/thoughtdump/
+site_description: technical notes
+
 
 docs_dir: docs
 
