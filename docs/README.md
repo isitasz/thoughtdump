@@ -1,42 +1,28 @@
-# My Notes
+# thoughtdump
 
-Knowledge hoarding.
+a personal collection of technical notes, references and things i've learned along the way.
 
-## Structure
+## built with
 
-    my-notes/
-    ├── README.md
-    │
-    ├── certifications/
-    │   ├── lfs101/
-    │   ├── cs50p/
-    │   └── cisco-networking-basics/
-    │
-    ├── languages/
-    │   └── python/
-    │
-    ├── networking/
-    │   └── introduction.md
-    │
-    └── personal/
-        ├── nvim/
-        └── ricing/
+- neovim
+- mkdocs
+- gh actions
 
-## Certifications
+the site is automatically built and deployed whenever changes are pushed to the `main` branch.
 
-- [LFS101 — Introduction to Linux](certifications/lfs101/)
-- [CS50P — Introduction to Programming with Python](certifications/cs50p/)
-- [Cisco Networking Basics](certifications/cisco-networking-basics/)
+## try it yourself.
 
-## Languages
+```bash
+git clone https://github.com/USERNAME/thoughtdump.git
+cd thoughtdump
 
-- [Python](languages/python/)
+python -m venv .venv
+source .venv/bin/activate
 
-## Networking
+pip install mkdocs-material
+mkdocs serve
+```
 
-- [Introduction to Networking](networking/introduction.md)
+---
 
-## Personal
-
-- [Neovim](personal/nvim/)
-- [Ricing](personal/ricing/)
+*just remember to delete my notes lmfao*
