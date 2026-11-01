@@ -1,13 +1,35 @@
-# thought dump
 
-> knowledge hoarding.
+<div class="desktop">
 
-my quick collection of technical notes and references.
-don't expect anything fancy. i'm just dumping my thoughts really.
+  <div class="window-title">
+    <span class="window-icon">▣</span>
+    <span>INDEX.SYS</span>
+    <span class="window-controls">_ □ ×</span>
+  </div>
 
-## explore
+  <section class="hero">
+    <div class="hero-label">DIRECTORY // HOME</div>
+    <h1>thoughtdump<span class="cursor">_</span></h1>
+    <p class="hero-description">
+      technical notes, references and documentation.
+    </p>
+    <div class="hero-status">
+      <span class="status-dot"></span>
+      LOCAL KNOWLEDGE BASE
+    </div>
+  </section>
 
-- **[certifications](certifications/)** — course notes.
-- **[languages](languages/)** — programming language references.
-- **[networking](networking/)** — protocols, concepts, and troubleshooting.
-- **[personal](personal/)** — stuff i use for unix customization.
+  <div class="section-heading">
+    <span>01</span> CONTENTS
+    <span class="heading-line"></span>
+  </div>
+
+<!-- AUTO-DIRECTORIES -->
+
+  <div class="bottom-panel">
+    <span>THOUGHTDUMP // 2026</span>
+    <span>MKDOCS MATERIAL</span>
+  </div>
+
+</div>
+

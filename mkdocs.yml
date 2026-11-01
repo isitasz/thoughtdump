@@ -2,6 +2,11 @@ site_name: thoughtdump
 site_url: https://SEU-USUARIO.github.io/thoughtdump/
 site_description: technical notes
 
+hooks:
+  - hooks.py
+
+extra_javascript:
+  - javascripts/extra.js
 
 docs_dir: docs
 
@@ -61,6 +66,8 @@ nav:
   - networking:
       - Overview: networking/index.md
       - Introduction: networking/introduction.md
+      - DNS: networking/dns.md
+      - HTTP: networking/http.md
   - personal:
       - Overview: personal/index.md
       - Neovim: personal/nvim/index.md
