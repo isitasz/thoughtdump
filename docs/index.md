@@ -1,8 +1,9 @@
-# my-notes
+# thought dump
 
 > knowledge hoarding.
 
 my quick collection of technical notes and references.
+don't expect anything fancy. i'm just dumping my thoughts really.
 
 ## explore
 
