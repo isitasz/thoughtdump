@@ -3,7 +3,9 @@ site_url: https://SEU-USUARIO.github.io/thoughtdump/
 site_description: technical notes
 
 hooks:
-  - hooks.py
+  - base.py
+  - names.py
+  - subfolder.py
 
 extra_javascript:
   - javascripts/extra.js

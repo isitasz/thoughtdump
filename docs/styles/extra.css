@@ -359,3 +359,110 @@
   }
 }
 
+
+.directory-card, 
+.directory-card h2,
+.md-content ul li,
+.md-content ol li,
+.md-content a, 
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+    text-transform: none !important;
+}
+
+
+
+
+
+.subfolder-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1rem 0;
+}
+
+.subfolder-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #1a1528;
+    border: 1px solid #3d2854;
+    border-radius: 6px;
+    padding: 4px 8px 4px 4px;
+    text-decoration: none !important;
+    color: #e2d9f3 !important;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+    text-transform: none !important;
+    gap: 6px;
+}
+
+.subfolder-btn:hover {
+    background-color: #271f3c;
+    border-color: #7b4ac6;
+}
+
+.folder-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background-color: #3d2854;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.folder-label {
+    text-transform: none !important;
+}
+
+
+
+
+
+.explorer-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #120e1b;
+    border: 1px solid #2d1f45;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 700px;
+}
+
+.explorer-item {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    border-radius: 4px;
+    text-decoration: none !important;
+    color: #d1c4e9 !important;
+    font-size: 0.85rem;
+    transition: background-color 0.15s ease;
+    gap: 8px;
+}
+
+.explorer-item:hover {
+    background-color: #26193d;
+    color: #fff !important;
+}
+
+.explorer-icon {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.explorer-name {
+    text-transform: none !important;
+}
+
+
+
+
+
+
+
+
